@@ -53,7 +53,7 @@ const soundsUrls = [
     note: '1A'
   },
   {
-    src: 'A1-sharp.wav',
+    src: '1A-sharp.wav',
     note: '#1A'
   },
   {
@@ -65,7 +65,7 @@ const soundsUrls = [
     note: '1C'
   },
   {
-    src: 'C1-sharp.wav',
+    src: '1C-sharp.wav',
     note: '#1C'
   },
   {
@@ -73,7 +73,7 @@ const soundsUrls = [
     note: '1D'
   },
   {
-    src: 'D1-sharp.wav',
+    src: '1D-sharp.wav',
     note: '#1D'
   },
   {
@@ -85,7 +85,7 @@ const soundsUrls = [
     note: '1F'
   },
   {
-    src: 'F1-sharp.wav',
+    src: '1F-sharp.wav',
     note: '#1F'
   },
   {
@@ -93,7 +93,7 @@ const soundsUrls = [
     note: '1G'
   },
   {
-    src: 'G1-sharp.wav',
+    src: '1G-sharp.wav',
     note: '#1G'
   },
   {
@@ -101,7 +101,7 @@ const soundsUrls = [
     note: '2A'
   },
   {
-    src: 'A2-sharp.wav',
+    src: '2A-sharp.wav',
     note: '#2A'
   },
   {
@@ -113,7 +113,7 @@ const soundsUrls = [
     note: '2C'
   },
   {
-    src: 'C2-sharp.wav',
+    src: '2C-sharp.wav',
     note: '#2C'
   },
   {
