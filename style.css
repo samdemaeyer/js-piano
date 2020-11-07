@@ -1,6 +1,38 @@
+.header-section {
+  text-align: center;
+}
+
+.note-to-play {
+}
+
+.btns-wrapper {
+  text-align: center;
+}
+
+.btn {
+  background: none;
+  border: 2px solid #00a700;
+  font-size: 1.4rem;
+  border-radius: 4px;
+  padding: .2rem .5rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #00a700;
+  color: white;
+}
+
+.btn:focus {
+  outline-offset: 1px;
+  outline-color: #99da99;
+}
+
 .piano-wrapper {
   position: relative;
   width: calc(18 * 50px);
+  margin: 0 auto;
+  padding: 0 0 2rem 0;
 }
 
 .note {
@@ -24,4 +56,16 @@
   z-index: 100;
   position: absolute;
   top: 0;
+}
+
+.note.is-valid {
+  background-color: chartreuse;
+}
+
+.note.is-invalid {
+  background-color: crimson;
+}
+
+.start-button {
+
 }
