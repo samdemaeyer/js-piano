@@ -1,8 +1,11 @@
-.header-section {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
 }
 
-.note-to-play {
+.header-section {
+  text-align: center;
 }
 
 .btns-wrapper {
@@ -30,7 +33,7 @@
 
 .piano-wrapper {
   position: relative;
-  width: calc(18 * 50px);
+  width: calc(28 * 50px);
   margin: 0 auto;
   padding: 0 0 2rem 0;
 }
@@ -48,7 +51,7 @@
   cursor: pointer;
 }
 
-.note[class*="#"] {
+.note[class*="-sharp"] {
   background-color: black;
   height: 150px;
   width: 32px;
@@ -66,6 +69,12 @@
   background-color: crimson;
 }
 
-.start-button {
-
+.note-to-play {
+  font-size: 2rem;
+  border: 2px solid;
+  display: inline-block;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  min-height: 2.5rem;
+  min-width: 1rem;
 }
